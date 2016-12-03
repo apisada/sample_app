@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
+  get 'your_heroku/home'
 
-  get 'static_pages/help'
+  get 'your_heroku/kingsong1'
   
-  get 'static_pages/about' 
+  get 'your_heroku/kingsong2' 
 
- root 'application#hello'
+ root 'application#รวบรวมเพลงพระราชนิพนธ์'
 end
